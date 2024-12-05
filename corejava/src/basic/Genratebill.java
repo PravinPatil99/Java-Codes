@@ -16,8 +16,6 @@ public static void main(String[] args) {
 	System.out.println("vegetable puffs bill:"+(vegetablepuffs*rateofpuffs));
 }
 
-    
-			
-	}
+  }
 
 

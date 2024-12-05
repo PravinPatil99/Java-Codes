@@ -7,7 +7,7 @@ public class Areaofcircle {
 		int breadth=Integer.parseInt(args[1]);
 		
 		int area=length*breadth;
-		System.out.println("Area of the cicle :"+area);
+		System.out.println("Area of the circle :"+area);
 		
 		
 		

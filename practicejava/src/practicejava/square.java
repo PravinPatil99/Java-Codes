@@ -1,9 +1,11 @@
 package practicejava;
 
-public class Square {
-	public static  int square(int num)
+public class square 
+{
+	
+public static  int square(int num)
 	{
-		system.out.println(args[0]);
+		System.out.println(num);
 		return num*num;
 		
 	}

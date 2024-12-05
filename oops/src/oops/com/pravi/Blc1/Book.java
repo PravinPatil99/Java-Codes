@@ -25,6 +25,13 @@ public class Book
 	{
 		System.out.println("Book [title=" + title + ", author=" + author + ", price=" + price + "]");
 	}
+
+
+
+	public static Book setBookObj() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 
 }

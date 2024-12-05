@@ -1,5 +1,5 @@
 package com.pravi.multillevelInheritance;
-
+/*
  class Bank
 {
 	 protected String bankName;
@@ -77,3 +77,4 @@ package com.pravi.multillevelInheritance;
 		}
  }
  }
+ */

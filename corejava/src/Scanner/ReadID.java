@@ -15,6 +15,7 @@ public class ReadID
 		System.out.println("Enter the emp id:");
 		String id=sc.next();
 		
+		
 		System.out.println("The emp id :"+id);
 		System.out.println("The emp name is :"+name);
 		

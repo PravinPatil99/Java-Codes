@@ -20,13 +20,6 @@ public class Calculate
 		}
 	
 	
-
-
-
-
-
-
-
 /*Calculate.java
 ---------------
 /*Program to find out the square and cube of 

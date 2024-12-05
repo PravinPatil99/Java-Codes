@@ -5,7 +5,7 @@ public class Product
 	protected  String name;
 	protected   double price;
 	
-	public Product(String name, double price) 
+	public Product(String name, double price, String brand) 
 	{
 		super();
 		this.name = name;
@@ -31,7 +31,7 @@ public class Product
 		   private String brand;
 
 		public Electronics(String name, double price, String brand) {
-			super(name, price);
+			super(name, price, brand);
 			this.brand = brand;
 		}
 		
@@ -50,7 +50,7 @@ public class Product
 			 * @param size
 			 */
 			public Clothing(String name, double price, String size) {
-				super(name, price);
+				super(name, price, size);
 				this.size = size;
 			}
 

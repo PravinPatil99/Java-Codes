@@ -7,7 +7,7 @@ public class Batter
 	private int matches;
 	private float batting_avg;
 	
-	public void  batterDetails(String name,int run,int matches)
+     public void  batterDetails(String name,int run,int matches)
 	
 	{
 		this.name= name;

@@ -11,8 +11,9 @@ package practicejava;
 
 public class Arraycalculationonlength {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args)
+	{
+		
 		if(args.length==0)
 		{
 			System.out.println("length is 0");

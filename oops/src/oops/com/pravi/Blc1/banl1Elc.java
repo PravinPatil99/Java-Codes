@@ -24,8 +24,6 @@ public class banl1Elc {
 		System.out.println("currentBalnace:");
 		b1.currentBalnace=sc.nextInt();
 		
-		
-		//b1.setDetails1();
 		b1.withdraw(0);
 		b1.deposit(200);
 		b1.CurrentBalance();

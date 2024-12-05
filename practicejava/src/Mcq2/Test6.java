@@ -2,9 +2,7 @@ package Mcq2;
 
 public class Test6 
 {
-	
-	
-	       public static void main(String[] argv)
+	public static void main(String[] argv)
 	       {
 	             int temp = 90;
 	             switch(temp)

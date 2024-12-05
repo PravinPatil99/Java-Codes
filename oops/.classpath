@@ -6,5 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="com.pravi.Has-ARelationship"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

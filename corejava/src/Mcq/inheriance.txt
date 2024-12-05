@@ -163,6 +163,8 @@ public static void main(String[] args)
 Faculty.password.access();
 }
 }
+output:
+Copy java soft copies...
 
 4. Write a java program how many objects can be created for a class?
 class Example
@@ -177,6 +179,9 @@ System.out.println(e1.x+" ..."+e1.y);
 System.out.println(e2.x+" ..."+e2.y);
 }
 }
+output:
+10 20
+10 20
 
 5. Write a java program creating multiple objects and modifying their
 values?
@@ -186,16 +191,19 @@ int a=10;
 int b=20;
 public static void main(String[] args)
 {
-Example e1=new Example();
-Example e2=new Example();
-System.out.println(e1.a+". .."+e1.b);
-System.out.println(e2.a+". .."+e2.b);
+Example e1=new Example();//50 20
+Example e2=new Example();//10 60
+System.out.println(e1.a+". .."+e1.b);//10 20
+System.out.println(e2.a+". .."+e2.b);//10 20
 e1.a=50;
 e2.b=60;
-System.out.println(e2.a+". .."+e2.b);
-System.out.println(e2.a+". .."+e2.b);
+System.out.println(e2.a+". .."+e2.b);//10 60
+System.out.println(e2.a+". .."+e2.b);//10 60
 }
 }
+output:
+ 10 60
+ 10 60
 
 6. Write a java program to show overriding toString() method to print object data?
 
@@ -204,7 +212,8 @@ class Example
 int eid;
 String ename;
 String company;
-public String toString(){
+public String toString()
+{
 return
 "eid:"+eid+"\n"+"ename:"+ename+"\n"+"company:"+company+"\n";
 }
@@ -220,7 +229,14 @@ System.out.println(e1);
 }
 }
 
+eid:7279
+ename:Ganesh
+company:Naresh It
+
+
 7. Write a java program shows creating class with static and non-static variables and their modifications?
+
+
 class Example
 {
 static int a=10;
@@ -238,6 +254,8 @@ e1.x=70;
 e1.y=80;
 }
 }
+Output:
+Error
 
 8. Find the Output
     public class Test1 {
@@ -253,7 +271,10 @@ e1.y=80;
 	{
 		num = 8;		
 	}
+	
 }
+output:
+4
 
 
 9. Find the output
@@ -271,10 +292,12 @@ public class Test
 		name = "Hyd";
 		
 	}
+	}
 	
-}
+	output:NIT
 
 10. Find the output
+
 class Customer
 {
 	private double bill = 1200;
