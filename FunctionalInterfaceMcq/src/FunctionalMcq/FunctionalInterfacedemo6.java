@@ -1,5 +1,5 @@
 package FunctionalMcq;
-
+/*
 @FunctionalInterface
 interface Nit
 {
@@ -20,9 +20,6 @@ public class FunctionalInterfacedemo6 {
 		String result=obj.get(str);
 		System.out.print(result);
 		
-		
+		 */
 		
 
-	}
-
-}
