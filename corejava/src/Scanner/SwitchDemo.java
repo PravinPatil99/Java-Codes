@@ -1,4 +1,4 @@
-package Scanner;
+	package Scanner;
 import java.util.*;
 public class SwitchDemo {
 

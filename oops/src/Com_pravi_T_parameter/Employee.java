@@ -48,8 +48,8 @@ class emp
 }
 public class Employee 
 { 
-	Consumer<emp> e1=Emp->System.out.println("type:"+Emp);
-	e1.accept(new emp())
+	Consumer<emp> e1=Emp->e1.accept(new emp(null, 0, null, 0));
+	system.out.println(e1);
 	
 	}
 
