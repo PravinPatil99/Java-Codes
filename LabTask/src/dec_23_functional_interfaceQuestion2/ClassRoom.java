@@ -16,10 +16,11 @@ public class ClassRoom
 	public String toString() {
 		return "ClassRoom [chairs=" + chairs + "]";
 	}
+	/*
 	
 	public static adjustChair(ClassRoom)
 	{
 		 return unaryOperator<ClassRoom>
 	}
-}
+}*/
 }

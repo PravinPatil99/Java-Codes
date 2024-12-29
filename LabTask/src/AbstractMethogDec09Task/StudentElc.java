@@ -1,7 +1,5 @@
 package AbstractMethogDec09Task;
 
-import java.lang.invoke.MethodHandles.Lookup.ClassOption;
-
 public class StudentElc {
 
 	public static void main(String[] args) 
