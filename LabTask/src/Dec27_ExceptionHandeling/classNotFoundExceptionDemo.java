@@ -6,9 +6,9 @@ public class classNotFoundExceptionDemo
 
 	public classNotFoundExceptionDemo() 
 	{
-		class c;
+		
 	try {
-		c=Class.forName("TestClass");	
+		Class.forName("TestClass");	
 		}
 	
 	catch(ClassNotFoundException e)
